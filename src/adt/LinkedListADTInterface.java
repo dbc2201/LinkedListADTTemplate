@@ -44,4 +44,9 @@ public interface LinkedListADTInterface<E> {
      * This method will sort the elements of the linked list.
      */
     void sort();
+
+    /**
+     * This method traverses the linked list and prints the contents of the nodes one-by-one.
+     */
+    void print();
 }
