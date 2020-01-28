@@ -7,5 +7,5 @@
 
 package definition;
 
-public class LinkedListDefinitionClass {
+public class LinkedListDefinitionClass<E> {
 }
