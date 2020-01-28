@@ -10,6 +10,11 @@ package definition;
 import adt.LinkedListADTInterface;
 
 public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
+
+    private static class Node<E> {
+
+    }
+
     @Override
     public void add(E item) {
 
