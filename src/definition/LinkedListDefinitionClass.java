@@ -115,7 +115,8 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
 
     @Override
     public void add(E item) {
-
+        // add the new node at the size (nth index) of the linked list
+        add(size, item);
     }
 
     @Override
