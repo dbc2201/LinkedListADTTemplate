@@ -12,7 +12,8 @@ import adt.LinkedListADTInterface;
 public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
 
     private static class Node<E> {
-
+        private E data;
+        private Node<E> next;
     }
 
     @Override
