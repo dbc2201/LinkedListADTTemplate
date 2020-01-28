@@ -22,6 +22,16 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
     private int size = 0;
 
     /**
+     * This method will return a node at the specified index from the linked list.
+     *
+     * @param index An non-negative index from the linked list.
+     * @return The node at the specified {@param index}
+     */
+    private Node<E> getNode(int index) {
+        return null;
+    }
+
+    /**
      * This method will add an {@param item} node to the beginning of the linked list.
      * Since the programmer is only giving us the {@param item}(the data value) and NOT
      * the node itself, we would have to create a node. Since, the linked list can only
