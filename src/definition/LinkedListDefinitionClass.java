@@ -28,7 +28,8 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
      * @return The node at the specified {@param index}
      */
     private Node<E> getNode(int index) {
-        return null;
+        Node<E> response = null;
+        return response;
     }
 
     /**
