@@ -29,6 +29,7 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
      */
     private Node<E> getNode(int index) {
         Node<E> response = head;
+
         /*
          * using a loop to traverse the whole linked list,
          * the loop will run until i is less than the size of the linked list,
@@ -36,6 +37,7 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
          * the current node traversed is not equal to null.
          * */
         for (int i = 0; i < size && response != null; i++) {
+
             // change the reference value of the response variable to the next node
             response = response.getNext();
         }
