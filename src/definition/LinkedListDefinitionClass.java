@@ -97,7 +97,10 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
      * @throws IndexOutOfBoundsException If the index is negative or greater than the size.
      */
     public void add(int index, E item) {
-
+        if (index < 0 || index > size) {
+            // throw the IndexOutOfBoundsException if the index given is incorrect.
+            throw new IndexOutOfBoundsException(Integer.toString(index));
+        }
     }
 
     @Override
