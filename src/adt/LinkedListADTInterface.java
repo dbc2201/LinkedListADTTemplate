@@ -11,4 +11,12 @@ package adt;
  * 5. traverse the whole linked list and print the contents of its nodes.
  */
 public interface LinkedListADTInterface<E> {
+    /**
+     * This method will add a node to the linked list.
+     * The programmer will only send in the data value to this method and this
+     * method will create a node suited to the linked list to be added inside it.
+     *
+     * @param item The data value that is to be added to the linked list.
+     */
+    void add(E item);
 }
