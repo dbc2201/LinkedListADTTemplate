@@ -23,6 +23,14 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
             this.data = data;
             this.next = next;
         }
+
+        private E getData() {
+            return data;
+        }
+
+        private Node<E> getNext() {
+            return next;
+        }
     }
 
     @Override
