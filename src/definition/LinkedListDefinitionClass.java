@@ -36,6 +36,7 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
          * the current node traversed is not equal to null.
          * */
         for (int i = 0; i < size && response != null; i++) {
+            // change the reference value of the response variable to the next node
             response = response.getNext();
         }
         return response;
