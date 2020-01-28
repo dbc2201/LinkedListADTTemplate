@@ -11,28 +11,6 @@ import adt.LinkedListADTInterface;
 
 public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
 
-    private static class Node<E> {
-        private E data;
-        private Node<E> next;
-
-        private Node(E data) {
-            this.data = data;
-        }
-
-        private Node(E data, Node<E> next) {
-            this.data = data;
-            this.next = next;
-        }
-
-        private E getData() {
-            return data;
-        }
-
-        private Node<E> getNext() {
-            return next;
-        }
-    }
-
     @Override
     public void add(E item) {
 
@@ -56,5 +34,27 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
     @Override
     public void print() {
 
+    }
+
+    private static class Node<E> {
+        private E data;
+        private Node<E> next;
+
+        private Node(E data) {
+            this.data = data;
+        }
+
+        private Node(E data, Node<E> next) {
+            this.data = data;
+            this.next = next;
+        }
+
+        private E getData() {
+            return data;
+        }
+
+        private Node<E> getNext() {
+            return next;
+        }
     }
 }
