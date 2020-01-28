@@ -39,4 +39,9 @@ public interface LinkedListADTInterface<E> {
      * @return the index of the item found in the linked list.
      */
     int search(E item);
+
+    /**
+     * This method will sort the elements of the linked list.
+     */
+    void sort();
 }
