@@ -13,6 +13,8 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
 
     // This reference variable will store the reference to the first node of the linked list.
     private Node<E> head = null;
+
+    // This variable will store the current size of the linked list.
     private int size = 0;
 
     @Override
