@@ -61,6 +61,9 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
          * head = n1;
          * */
         head = new Node<>(item, head);
+
+        // increase the size of the linked list
+        size++;
     }
 
     /**
