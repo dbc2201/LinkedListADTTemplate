@@ -119,6 +119,16 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
         add(size, item);
     }
 
+    /**
+     * This method will remove the first node from the linked list.
+     *
+     * @return The removed node's data or null if the list was empty.
+     */
+    private E removeFirst() {
+        E response = head.getData();
+        return response;
+    }
+
     @Override
     public void remove(E item) {
 
