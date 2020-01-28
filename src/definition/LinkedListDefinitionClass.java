@@ -54,6 +54,13 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
      */
     private void addFirst(E item) {
 
+        /*
+         * The code following these comments is the summation of the two lines of code
+         * written inside the comments.
+         * Node<E> n1 = new Node<E>(item, null);
+         * head = n1;
+         * */
+        head = new Node<>(item, head);
     }
 
     /**
