@@ -46,6 +46,17 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
 
     }
 
+    /**
+     * This method will add an {@param item} node in the linked list at the given {@param index}.
+     *
+     * @param index The index of the linked list at which the node is to be added.
+     * @param item  The data value of the node to be created and added to the linked list.
+     * @throws IndexOutOfBoundsException If the index is negative or greater than the size.
+     */
+    public void add(int index, E item) {
+
+    }
+
     @Override
     public void add(E item) {
 
