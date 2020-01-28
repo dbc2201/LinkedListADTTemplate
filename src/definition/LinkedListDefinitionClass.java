@@ -100,6 +100,9 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
         if (index < 0 || index > size) {
             // throw the IndexOutOfBoundsException if the index given is incorrect.
             throw new IndexOutOfBoundsException(Integer.toString(index));
+        } else if (index == 0) {
+            // the node is to be added at the first index, call the addFirst() method
+            addFirst(item);
         }
     }
 
