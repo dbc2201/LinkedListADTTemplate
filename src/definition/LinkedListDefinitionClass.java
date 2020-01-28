@@ -103,6 +103,10 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
         } else if (index == 0) {
             // the node is to be added at the first index, call the addFirst() method
             addFirst(item);
+        } else {
+            // the node is to be added somewhere after a given node
+            // firstly, get the node after which we have to add a new node.
+            Node<E> temp = getNode(index - 1);
         }
     }
 
