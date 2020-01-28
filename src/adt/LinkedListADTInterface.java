@@ -29,4 +29,14 @@ public interface LinkedListADTInterface<E> {
      * @param item The data value that is to be deleted from the linked list.
      */
     void remove(E item);
+
+    /**
+     * This method will search for any occurrences of the given {@param item} in the linked list.
+     * If the item has been found in the linked list, the method shall return a non-negative integer
+     * greater than or equal to zero and less than the size.
+     *
+     * @param item The item to search in the linked list.
+     * @return the index of the item found in the linked list
+     */
+    int search(E item);
 }
