@@ -17,6 +17,18 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
     // This variable will store the current size of the linked list.
     private int size = 0;
 
+    /**
+     * This method will add an {@param item} to the beginning of the linked list.
+     * Since the programmer is only giving us the {@param item}(the data value) and NOT
+     * the node itself, we would have to create a node. Since, the linked list can only
+     * operate on nodes.
+     *
+     * @param item This is the data value of the node to be created and added to the linked list.
+     */
+    private void addFirst(E item) {
+
+    }
+
     @Override
     public void add(E item) {
 
