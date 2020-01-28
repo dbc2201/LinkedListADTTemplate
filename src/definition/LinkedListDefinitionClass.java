@@ -7,5 +7,31 @@
 
 package definition;
 
-public class LinkedListDefinitionClass<E> {
+import adt.LinkedListADTInterface;
+
+public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
+    @Override
+    public void add(E item) {
+
+    }
+
+    @Override
+    public void remove(E item) {
+
+    }
+
+    @Override
+    public int search(E item) {
+        return 0;
+    }
+
+    @Override
+    public void sort() {
+
+    }
+
+    @Override
+    public void print() {
+
+    }
 }
