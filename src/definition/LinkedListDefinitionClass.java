@@ -11,6 +11,7 @@ import adt.LinkedListADTInterface;
 
 public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
 
+    // This reference variable will store the reference to the first node of the linked list.
     private Node<E> head = null;
     private int size = 0;
 
