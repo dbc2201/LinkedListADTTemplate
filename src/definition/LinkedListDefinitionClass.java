@@ -9,6 +9,10 @@ package definition;
 
 import adt.LinkedListADTInterface;
 
+/**
+ * This class will serve as the definition class for the Linked List implementation.
+ * It implements the {@link LinkedListADTInterface<E>} and overrides all the methods.
+ */
 public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
 
     // This reference variable will store the reference to the first node of the linked list.
