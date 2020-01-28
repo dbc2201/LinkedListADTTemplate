@@ -36,7 +36,7 @@ public interface LinkedListADTInterface<E> {
      * greater than or equal to zero and less than the size.
      *
      * @param item The item to search in the linked list.
-     * @return the index of the item found in the linked list
+     * @return the index of the item found in the linked list.
      */
     int search(E item);
 }
