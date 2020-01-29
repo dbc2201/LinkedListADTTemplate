@@ -167,6 +167,9 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
         if (temp != null) {
             // change the next reference of the previous node
             node.next = temp.getNext();
+
+            // decrease the size of the linked list
+            size--;
         }
         return response;
     }
