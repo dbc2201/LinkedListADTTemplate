@@ -199,7 +199,8 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
     public void print() {
         System.out.print("[");
         for (int i = 0; i < size; i++) {
-            System.out.println(this.getNode(i).data);
+            // fetch the data for the current node
+            E data = this.getNode(i).getData();
         }
         System.out.println("]");
     }
