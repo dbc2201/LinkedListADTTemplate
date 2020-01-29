@@ -170,6 +170,9 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
 
             // decrease the size of the linked list
             size--;
+
+            // set the data of the temp node (deleted node) to the response
+            response = temp.getData();
         }
         return response;
     }
