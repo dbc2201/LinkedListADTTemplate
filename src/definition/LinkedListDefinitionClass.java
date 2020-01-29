@@ -25,7 +25,7 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
      * This method will return a node at the specified index from the linked list.
      *
      * @param index An non-negative index from the linked list.
-     * @return The node at the specified {@param index}
+     * @return The node at the specified index.
      */
     private Node<E> getNode(int index) {
         Node<E> response = head;
@@ -45,8 +45,8 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
     }
 
     /**
-     * This method will add an {@param item} node to the beginning of the linked list.
-     * Since the programmer is only giving us the {@param item}(the data value) and NOT
+     * This method will add an item node to the beginning of the linked list.
+     * Since the programmer is only giving us the item(the data value) and NOT
      * the node itself, we would have to create a node. Since, the linked list can only
      * operate on nodes.
      *
@@ -67,7 +67,7 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
     }
 
     /**
-     * This method will add an {@param item} node after a given {@param node} in the linked list.
+     * This method will add an item node after a given node in the linked list.
      * Similar to the addFirst() method, this method also receives only the data value, so we
      * would have create a node and then send it to the linked list to be added after the
      * given node.
@@ -90,7 +90,7 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
     }
 
     /**
-     * This method will add an {@param item} node in the linked list at the given {@param index}.
+     * This method will add an item node in the linked list at the given item.
      *
      * @param index The index of the linked list at which the node is to be added.
      * @param item  The data value of the node to be created and added to the linked list.
