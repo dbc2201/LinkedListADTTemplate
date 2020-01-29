@@ -141,6 +141,8 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
         // check to see if the temp variable isn't null.
         if (temp != null) {
 
+            // decrease the size of the linked list
+            size--;
         }
 
         return response;
