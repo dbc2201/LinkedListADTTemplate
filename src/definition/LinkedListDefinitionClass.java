@@ -129,6 +129,11 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
 
         // store the head node's reference in a temp variable.
         Node<E> temp = head;
+
+        // check to see if the head isn't null.
+        if (head != null) {
+
+        }
         return response;
     }
 
