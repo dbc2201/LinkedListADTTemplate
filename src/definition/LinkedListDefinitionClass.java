@@ -160,22 +160,27 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
      * This is the Node class that implements the methods as per the requirements of the linked list.
      */
     private static class Node<E> {
+        // these are the fields for the singly-linked list
         private E data;
         private Node<E> next;
 
+        // constructor to initialize the data field of the node
         private Node(E data) {
             this.data = data;
         }
 
+        // constructor to initialize both the fields of the node
         private Node(E data, Node<E> next) {
             this.data = data;
             this.next = next;
         }
 
+        // getter method for the node's data field
         private E getData() {
             return data;
         }
 
+        // getter method for the node's next field
         private Node<E> getNext() {
             return next;
         }
