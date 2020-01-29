@@ -165,7 +165,8 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
 
         // check if the temp variable is not null
         if (temp != null) {
-
+            // change the next reference of the previous node
+            node.next = temp.getNext();
         }
         return response;
     }
