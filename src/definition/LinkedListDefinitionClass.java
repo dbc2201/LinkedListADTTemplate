@@ -159,6 +159,9 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
      */
     private E removeAfter(Node<E> node) {
         E response = null;
+
+        // store the node to be deleted in a temp variable
+        Node<E> temp = node.next;
         return response;
     }
 
