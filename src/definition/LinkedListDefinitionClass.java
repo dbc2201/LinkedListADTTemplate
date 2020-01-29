@@ -157,7 +157,7 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
     }
 
     /**
-     * This is the Node class that implements the methods as per the requriements of the linked list.
+     * This is the Node class that implements the methods as per the requirements of the linked list.
      */
     private static class Node<E> {
         private E data;
