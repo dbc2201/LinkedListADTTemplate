@@ -162,6 +162,11 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
 
         // store the node to be deleted in a temp variable
         Node<E> temp = node.next;
+
+        // check if the temp variable is not null
+        if (temp != null) {
+
+        }
         return response;
     }
 
