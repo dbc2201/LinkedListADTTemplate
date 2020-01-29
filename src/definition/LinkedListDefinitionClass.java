@@ -144,6 +144,9 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
 
     }
 
+    /**
+     * This method will print the contents of the nodes of the linked list.
+     */
     @Override
     public void print() {
         System.out.print("[");
