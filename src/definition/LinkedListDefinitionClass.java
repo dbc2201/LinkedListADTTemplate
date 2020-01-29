@@ -125,7 +125,10 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
      * @return The removed node's data or null if the list was empty.
      */
     private E removeFirst() {
-        E response = head.getData();
+        E response = null;
+
+        // store the head node's reference in a temp variable.
+        Node<E> temp = head;
         return response;
     }
 
