@@ -31,7 +31,7 @@ public interface LinkedListADTInterface<E> {
     void remove(E item);
 
     /**
-     * This method will search for any occurrences of the given {@param item} in the linked list.
+     * This method will search for any occurrences of the given item in the linked list.
      * If the item has been found in the linked list, the method shall return a non-negative integer
      * greater than or equal to zero and less than the size.
      *
