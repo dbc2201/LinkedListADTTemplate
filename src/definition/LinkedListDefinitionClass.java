@@ -36,7 +36,7 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
          * AND
          * the current node traversed is not equal to null.
          * */
-        for (int i = 0; i < size && response != null; i++) {
+        for (int i = 0; i < index && response != null; i++) {
 
             // change the reference value of the response variable to the next node
             response = response.getNext();
@@ -83,7 +83,7 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
          * Node<E> n1 = new Node<E>(item, node.next);
          * node.next = n1;
          * */
-        node.next = new Node<>(item, node.getNext());
+        node.next = new Node<>(item, node.next);
 
         // increase the size of the linked list
         size++;
@@ -146,7 +146,11 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
 
     @Override
     public void print() {
-
+        System.out.print("[");
+        for (int i = 0; i < size; i++) {
+            System.out.println(this.getNode(i).data);
+        }
+        System.out.println("]");
     }
 
     private static class Node<E> {
