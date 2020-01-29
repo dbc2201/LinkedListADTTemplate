@@ -155,6 +155,7 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
      * This method will remove a node after the given node in the linked list.
      *
      * @param node The node after which the node is to be deleted.
+     * @return the node's data that was deleted or null if there was no node.
      */
     private E removeAfter(Node<E> node) {
         E response = null;
