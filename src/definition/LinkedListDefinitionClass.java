@@ -136,6 +136,13 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
             // move the head node's reference to the immediate next node.
             head = head.getNext();
         }
+
+        // return the old head node's data.
+        // check to see if the temp variable isn't null.
+        if (temp != null) {
+
+        }
+
         return response;
     }
 
