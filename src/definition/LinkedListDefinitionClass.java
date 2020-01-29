@@ -156,6 +156,9 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
         System.out.println("]");
     }
 
+    /**
+     * This is the Node class that implements the methods as per the requriements of the linked list.
+     */
     private static class Node<E> {
         private E data;
         private Node<E> next;
