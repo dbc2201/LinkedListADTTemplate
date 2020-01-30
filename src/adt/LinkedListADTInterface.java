@@ -22,8 +22,10 @@ public interface LinkedListADTInterface<E> {
 
     /**
      * This method will remove a node from end of the linked list.
+     *
+     * @return the data of the deleted node
      */
-    void remove();
+    E remove();
 
     /**
      * This method will search for any occurrences of the given item in the linked list.
