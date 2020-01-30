@@ -205,7 +205,12 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
 
     @Override
     public int search(E item) {
-        return 0;
+        int response = -1;
+        // write a loop to traverse the linked list
+        for (int i = 0; i < size; i++) {
+
+        }
+        return response;
     }
 
     @Override
