@@ -219,6 +219,16 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
         return response;
     }
 
+    /**
+     * This method will swap two nodes in a linked list.
+     *
+     * @param firstNode  the first node
+     * @param secondNode the second node
+     */
+    private void swap(Node<E> firstNode, Node<E> secondNode) {
+
+    }
+
     @Override
     public void sort() {
 
