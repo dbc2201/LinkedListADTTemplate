@@ -177,6 +177,16 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
         return response;
     }
 
+    /**
+     * This method will remove a node in the linked list at a particular index.
+     *
+     * @param index the index at which the value is to be deleted.
+     * @return the data of the deleted node.
+     */
+    public E remove(int index) {
+        return null;
+    }
+
     @Override
     public E remove() {
         return null;
