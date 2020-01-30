@@ -199,7 +199,8 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
 
     @Override
     public E remove() {
-        return null;
+        // to remove the last node from the linked list, call the indexed remove method on size.
+        return remove(size);
     }
 
     @Override
