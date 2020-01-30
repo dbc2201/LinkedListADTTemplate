@@ -21,14 +21,9 @@ public interface LinkedListADTInterface<E> {
     void add(E item);
 
     /**
-     * This method will remove a node from the linked list.
-     * The programmer will send the data they want to be deleted from the linked list,
-     * then this method will search for the node to be present in the linked list.
-     * If the node is present, it will delete it from the linked list.
-     *
-     * @param item The data value that is to be deleted from the linked list.
+     * This method will remove a node from end of the linked list.
      */
-    void remove(E item);
+    void remove();
 
     /**
      * This method will search for any occurrences of the given item in the linked list.
