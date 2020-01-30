@@ -226,7 +226,9 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
      * @param secondNode the second node
      */
     private void swap(Node<E> firstNode, Node<E> secondNode) {
-
+        Node<E> temp = firstNode;
+        firstNode = secondNode;
+        secondNode = temp;
     }
 
     @Override
