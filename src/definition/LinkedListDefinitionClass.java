@@ -208,7 +208,8 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
         int response = -1;
         // write a loop to traverse the linked list
         for (int i = 0; i < size; i++) {
-
+            // fetch the data of the current node
+            E data = this.getNode(i).getData();
         }
         return response;
     }
