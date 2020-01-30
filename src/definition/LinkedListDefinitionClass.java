@@ -184,7 +184,12 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
      * @return the data of the deleted node.
      */
     public E remove(int index) {
-        return null;
+        E response = null;
+        // check for valid index
+        if (index < 0 || index > size) {
+            throw new IndexOutOfBoundsException(Integer.toString(index));
+        }
+        return response;
     }
 
     @Override
