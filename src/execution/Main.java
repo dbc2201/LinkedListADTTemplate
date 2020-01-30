@@ -15,8 +15,10 @@ public class Main {
                 new LinkedListDefinitionClass<>();
         list.print();
         list.add(4);
-        list.add(4);
-        list.add(4);
+        list.add(5);
+        list.add(6);
+        list.print();
+        list.remove();
         list.print();
     }
 }
