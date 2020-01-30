@@ -210,6 +210,11 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
         for (int i = 0; i < size; i++) {
             // fetch the data of the current node
             E data = this.getNode(i).getData();
+            // check if the item is equal to the data of the current node
+            if (item.equals(data)) {
+                response = i;
+                break;
+            }
         }
         return response;
     }
