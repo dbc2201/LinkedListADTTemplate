@@ -36,7 +36,7 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
          * AND
          * the current node traversed is not equal to null.
          * */
-        for (int i = 0; i < index && response != null; i++) {
+        for (int i = 0; i < index; i++) {
 
             // change the reference value of the response variable to the next node
             response = response.getNext();
@@ -200,7 +200,7 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
     @Override
     public E remove() {
         // to remove the last node from the linked list, call the indexed remove method on size.
-        return remove(size);
+        return remove(size - 1);
     }
 
     @Override
