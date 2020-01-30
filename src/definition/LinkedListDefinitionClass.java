@@ -178,7 +178,7 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
     }
 
     @Override
-    public void remove(E item) {
+    public void remove() {
 
     }
 
