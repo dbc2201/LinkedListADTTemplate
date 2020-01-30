@@ -190,6 +190,8 @@ public class LinkedListDefinitionClass<E> implements LinkedListADTInterface<E> {
             throw new IndexOutOfBoundsException(Integer.toString(index));
         } else if (index == 0) { /* check if the index is zero*/
             response = removeFirst();
+        } else {
+            Node<E> previousNode = getNode(index - 1);
         }
         return response;
     }
